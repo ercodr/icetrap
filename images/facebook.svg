@@ -1,0 +1,14 @@
+<svg id="icons8-facebook-circled" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59.509" height="59.509" viewBox="0 0 59.509 59.509">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.014" x2="0.5" y2="1.027" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1a6dff"/>
+      <stop offset="1" stop-color="#c822ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="-0.018" x2="0.5" y2="1.022" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6dc7ff"/>
+      <stop offset="1" stop-color="#e6abff"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_7" data-name="Path 7" d="M35.754,65.509A29.754,29.754,0,1,1,65.509,35.754,29.787,29.787,0,0,1,35.754,65.509Zm0-57.22A27.466,27.466,0,1,0,63.22,35.754,27.5,27.5,0,0,0,35.754,8.289Z" transform="translate(-6 -6)" fill="url(#linear-gradient)"/>
+  <path id="Path_8" data-name="Path 8" d="M36.282,53.08v-16.8h5.952l1.226-6.721-7.178.021V25c0-1.952-.13-3.282,2.845-3.282h4.3l.006-6.419c-1.006-.083-2.705-.267-5.37-.267-5.564,0-8.918,3.155-8.918,8.949v5.579H22v6.721h7.141v16.8Z" transform="translate(-4.078 -4.283)" fill="url(#linear-gradient-2)"/>
+</svg>

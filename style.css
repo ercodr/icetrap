@@ -1,0 +1,626 @@
+*{
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    color: #292D41;
+    outline: none;
+}
+
+/* NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR  */
+/* NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR  */
+/* NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR  */
+
+.nav-bar{
+    background: #292D41;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    padding: 0 10%;
+    overflow-x: hidden;
+    /* position: fixed; */
+    z-index: 1;
+    top: 0;
+}
+
+.links ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.links ul li{
+    width: 5rem;  
+}
+
+.links a, .brand, .brand span{
+    color: rgba(255, 255, 255, 0.822);  
+    transition: all 0.15s;
+}
+
+.links  a:hover{
+    color: #9296aa;
+    cursor: pointer;
+}
+
+.brand{
+    font-style: italic;
+    font-size: 2.3rem;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    letter-spacing: .05rem;
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+
+.brand span{
+    font-weight: normal;
+    font-size: small;
+    margin-left: .5rem;
+}
+
+
+/* BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY */
+/* BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY */
+/* BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY */
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+    cursor: default;
+    background: rgb(250, 250, 250);
+    /* padding-top: 5rem; */
+}
+
+
+/* INTRO *//* INTRO *//* INTRO */
+/* INTRO *//* INTRO *//* INTRO */
+/* INTRO *//* INTRO *//* INTRO */
+
+.intro{
+    margin: 5rem 10%;
+}
+
+.intro h1{
+    font-family: "poppins black";
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 5rem;
+}
+
+.intro p{
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+
+.intro button{
+    padding: 1rem 3rem;
+    border: none;
+    background: #292D41;
+    color: rgba(255, 255, 255, 0.822);  
+    border-radius: 5rem;
+    margin: 1rem 0;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+
+.intro button:hover{
+    background: #1A1C27;
+    transform: scale(1.056);
+    
+}
+
+
+/* ABOUT US *//* ABOUT US *//* ABOUT US *//* ABOUT US */
+/* ABOUT US *//* ABOUT US *//* ABOUT US *//* ABOUT US */
+/* ABOUT US *//* ABOUT US *//* ABOUT US *//* ABOUT US */
+
+.about-us{
+    background: #292D41;
+    text-align: center;
+    padding: 3rem 10rem;
+}
+
+.about-us h1, .about-us p{
+    color: rgba(255, 255, 255, 0.822);
+}
+
+.under-line{
+    width: 3.5rem;
+    height: .35rem;
+    background-color: rgba(255, 255, 255, 0.822);
+    margin: auto;
+    border-radius: 5rem;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+}
+
+.about-us p{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+
+/* SERVICE *//* SERVICE *//* SERVICE *//* SERVICE */
+/* SERVICE *//* SERVICE *//* SERVICE *//* SERVICE */
+/* SERVICE *//* SERVICE *//* SERVICE *//* SERVICE */
+
+.card{
+    /* background: #f1f1f1; */
+    background: #ffffff;
+    margin: 1rem;
+    padding: 1rem;
+    width: 25rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 2rem rgba(185, 185, 185, 0.5);
+    transition: all 0.5s ease;
+}
+
+.anim:hover{
+    transform: translateY(-.5rem);
+}
+
+.button-learn-more{
+    background: #292D41;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    transition: all .2s linear;
+}
+
+.button-learn-more:hover{
+    background: #1A1C27;
+    transform: scale(0.95);
+}
+
+.button-learn-more .text, .arrow{
+    color: #fff;
+}
+
+.card img{
+    width: 100%;
+    /* height: 100%; */
+}
+
+.bar{
+    width: 4rem;
+    height: .5rem;
+    background: #292D41;
+    border-radius: 5rem;
+    /* margin-bottom: 1.5rem; */
+}
+
+.service{
+    padding: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.head{
+    background: rgb(250, 250, 250);
+    padding-left: 0;
+    box-shadow: none;
+}
+
+.service .head h1{
+    font-family: "poppins black";
+    font-size: 3em;
+    margin: 1.5rem 0;
+}
+
+.card .title{
+    margin: 1rem 0;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+/* WHY CHOOSE US *//* WHY CHOOSE US *//* WHY CHOOSE US */
+/* WHY CHOOSE US *//* WHY CHOOSE US *//* WHY CHOOSE US */
+/* WHY CHOOSE US *//* WHY CHOOSE US *//* WHY CHOOSE US */
+
+.why-choose-us{
+    margin-top: 3rem;
+}
+
+.why-choose-us .head h1{
+    font-family: "poppins black";
+    font-size: 2em;
+    margin: .5rem 0;
+}
+
+.why-choose-us .head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.why-choose-us .head .right{
+    margin-left: 12rem;
+}
+
+.why-choose-us .head .left{
+    margin-right: 12rem;
+}
+
+.content{
+    background: #292D41;
+    margin: 2rem 0;
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.content .left h1, .left p, .right h1, .right p{
+    color: rgb(250, 250, 250);
+}
+
+.why-choose-us h1{
+    font-size: 3em;
+}
+
+.why-choose-us p{
+    font-size: large;
+    margin-right: 5rem;
+}
+
+
+/* MEET OUT TEAM *//* MEET OUT TEAM *//* MEET OUT TEAM */
+/* MEET OUT TEAM *//* MEET OUT TEAM *//* MEET OUT TEAM */
+/* MEET OUT TEAM *//* MEET OUT TEAM *//* MEET OUT TEAM */
+
+.team *{
+    color: rgb(250, 250, 250);
+}
+
+.team .team-head h1{
+    color: #fff;
+}
+
+.team-head .left, .team-head .right{
+    background-color: rgb(250, 250, 250);
+    height: .4rem;
+    margin: .5rem 0;
+}
+
+
+.team .team-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team{
+    background: #1A1C27;
+    padding: 4rem 0;
+}
+
+.team-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+}
+
+/* CARD *//* CARD *//* CARD */
+.team-card{
+    background: #292D41;
+    margin: 4rem 2rem;
+    width: 20rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    transition: all .5s ease-in-out;
+
+}
+
+.team-card:hover{
+    /* transform: translateY(-.5rem); */
+    transform: scale(1.2);
+}
+
+.team-card p{
+    text-align: center;
+    font-size: small;
+    font-weight: 250;
+}
+
+.team-card h1{
+    font-size: 1.2em;
+    margin: 2rem 0;
+    font-weight: normal;
+}
+
+.team-card h3{
+    font-size: 1em;
+    margin: .2rem 0;
+    font-weight: normal;
+}
+
+.team-card .image{
+    background: #0c0c11;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-top: -8rem;
+    border: .5rem solid #1A1C27;
+    transition: all .5s ease-in-out;
+}
+
+.team-card .image:hover{
+    /* transform: scale(1.3); */
+    transform: translateY(-1rem);
+    box-shadow: 0 2rem .6rem rgba(15, 20, 29, 0.2);
+}
+
+.team-card .image img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.hr{
+    width: 100%;
+    margin: 2rem 0;
+    height:.01rem;
+    background: #52566e;
+}
+
+.social img{
+    width: 2rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    transition: all .5s ease-out
+}
+
+.social img:hover{
+    transform: scale(1.2);
+}
+
+
+
+/* SIGN UP FOR A REPAIR *//* SIGN UP FOR A REPAIR *//* SIGN UP FOR A REPAIR */
+/* SIGN UP FOR A REPAIR *//* SIGN UP FOR A REPAIR *//* SIGN UP FOR A REPAIR */
+/* SIGN UP FOR A REPAIR *//* SIGN UP FOR A REPAIR *//* SIGN UP FOR A REPAIR */
+
+
+.signup *{
+    color: rgb(250, 250, 250);
+}
+
+.signup{
+    background: #1A1C27;
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem 0;   
+    transition: all .5s ease-out;
+    flex-wrap: wrap;
+}
+.signup-head .bar{
+    background: rgb(250, 250, 250);
+}
+
+.signup .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-right: 10rem; */
+}
+
+.signup-head h1{
+    margin: 0.5em 0;
+}
+
+.signup input{
+    margin: .5rem 0;
+    background: #1A1C27;
+    border: none;
+    width: 20rem;
+    /* border-left: 1px solid #fff; */
+    border-bottom: 1px solid #8a8a8a;
+    padding: .1rem;
+}
+
+.signup .button{
+    background: #0e101a;
+    border: none;
+    padding: .5rem;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    /* border-radius: .3rem; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5em;
+}
+
+.signup .button:hover{
+    transform: scale(0.95)
+}
+
+
+.signup-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER */
+/* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER */
+/* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER */
+
+/* UPPER FOOTER */
+footer .upper{
+    /* background: #292D41; */
+    background: #1A1C27;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem 7rem;
+}
+
+.newsletter{
+    text-align: center;
+}
+
+.newsletter .input-plus-button{
+    background: rgb(250, 250, 250);
+    border-radius: 5rem;
+    padding: .2rem 2rem;
+    padding-right: .2rem;
+}
+
+.newsletter button{
+    background: #292D41;
+    border: none;
+    padding: .5rem .5rem;
+    border-radius: 2rem;
+    color: rgb(250, 250, 250);
+    font-style: italic;
+}
+
+.input-plus-button input{
+    height: 2rem;
+    width: 15rem;
+    border: none;
+    font-size: large;   
+}
+
+.input-plus-button button{
+    margin-left: 1rem;
+    cursor: pointer;
+    padding: .5rem 1rem;
+}
+
+.input-plus-button button:hover{
+    background: #0e101a;
+}
+
+.newsletter h2{
+    color: #fff;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 1rem 0;
+}
+
+.details{
+    padding: 1rem 0;
+}
+
+.details > p{
+    margin: 0.3em;
+}
+
+/* LOWER FOOTER */
+footer .lower{
+    /* background: #1A1C27; */
+    background: #0e101a;
+    color:rgb(250, 250, 250);
+    text-align: center;
+    padding: .5rem;
+}
+
+
+/* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY */
+/* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY */
+/* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY */
+/* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY */
+/* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY */
+/* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY */
+/* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY */
+/* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY */
+/* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY */
+/* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY */
+/* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY */
+/* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY *//* MEDIA QUERY */
+
+@media screen and (max-width: 1024px) {
+    nav{
+        display: none;
+    }
+
+    .about-us p{
+        font-size: 1.1rem;
+        margin: 1rem -5rem;
+    }
+
+    .card{
+        width: 40%;
+    }
+
+    .why-choose-us p{
+        font-size: 1rem;
+    }
+
+    .why-choose-us h1{
+        font-size: 2.6rem;
+        line-height: 1.3;
+        margin-bottom: 1rem;
+    }
+
+    .newsletter h2{
+        font-size: 1.2rem;
+    }
+
+    .newsletter .input-plus-button{
+        height: 3rem;
+    }
+
+    .upper .left{
+        margin-right: 6rem;
+    }
+
+    .upper .brand{
+        font-size: 2rem;
+    }
+
+    .upper .brand span{
+        font-size: .6rem;
+    }
+
+    .details p{
+        font-size: .8rem;
+    }
+
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input-plus-button{
+        display: flex;
+        width: 20rem;
+        align-items: center;
+    }
+}
+
+@media  screen and (max-width: 600px) {
+    body{
+        min-width: 600px;
+    }
+
+    .upper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .why-choose-us .content{
+        flex-wrap: wrap;
+    }
+}

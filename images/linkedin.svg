@@ -1,0 +1,20 @@
+<svg id="icons8-linkedin-circled" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59.509" height="59.509" viewBox="0 0 59.509 59.509">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1a6dff"/>
+      <stop offset="1" stop-color="#c822ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.487" y1="-0.007" x2="0.513" y2="1.026" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6dc7ff"/>
+      <stop offset="1" stop-color="#e6abff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.496" y1="-0.006" x2="0.504" y2="1.024" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-4" x1="0.504" y1="-0.001" x2="0.496" y2="1.004" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <path id="Path_3" data-name="Path 3" d="M35.754,65.509A29.754,29.754,0,1,1,65.509,35.754,29.788,29.788,0,0,1,35.754,65.509Zm0-57.22A27.466,27.466,0,1,0,63.22,35.754,27.5,27.5,0,0,0,35.754,8.289Z" transform="translate(-6 -6)" fill="url(#linear-gradient)"/>
+  <rect id="Rectangle_19" data-name="Rectangle 19" width="6.856" height="22.283" transform="translate(13.851 21.692)" fill="url(#linear-gradient-2)"/>
+  <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="3.69" cy="3.428" rx="3.69" ry="3.428" transform="translate(13.68 11.596)" fill="url(#linear-gradient-3)"/>
+  <g id="Group_4" data-name="Group 4" transform="translate(25.407 22.083)">
+    <path id="Path_4" data-name="Path 4" d="M42.145,26h-.633a5.336,5.336,0,0,0-5.243,4.358h-.1V26H29V47.511h7.17V35.42a10.315,10.315,0,0,1,.1-1.267,3.581,3.581,0,0,1,7.07.809V47.511h7.17V34.365A8.365,8.365,0,0,0,42.145,26Z" transform="translate(-29 -26)" fill="url(#linear-gradient-4)"/>
+  </g>
+</svg>
